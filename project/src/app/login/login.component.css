@@ -1,0 +1,163 @@
+/* Full-width inputs */
+/* input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } */
+
+/* Set a style for all buttons */
+/* button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  } */
+
+/* Add a hover effect for buttons */
+/* button:hover {
+    opacity: 0.8;
+  }
+   */
+/* Extra style for the cancel button (red) */
+/* .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  } */
+
+/* Center the avatar image inside this container */
+/* .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  } */
+
+/* Avatar image */
+/* img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  } */
+
+/* Add padding to containers */
+/* .container {
+    padding: 16px;
+    width: 500px;
+  } */
+
+/* The "Forgot password" text */
+/* span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+   */
+/* Change styles for span and cancel button on extra small screens */
+/* @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  } */
+
+  label {
+    color: #121212df;
+    font-size: 20px;
+  }
+  .alert {
+    background-color: rgba(255, 0, 0, 0.44);
+    width: fit-content;
+    border-radius: 10px;
+    padding: 2% 3%;
+  }
+  .main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .welcome-wrapper {
+    font-size: 50px;
+    font-weight: 400;
+    color: rgba(18, 18, 18, 0.873);
+  }
+  
+  .form-wrapper {
+    /* border:2px solid red; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    min-height:400px;
+    justify-content: space-around;
+    /* gap:25px; */
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 25px;
+  }
+  .username-wrapper {
+    /* background-color:red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .username-controller-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* justify-content: space-around; */
+  }
+  
+  .password-wrapper {
+    /* background-color:red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .password-controller-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .submit {
+    background-image: linear-gradient(
+      to right,
+      #07c582 0%,
+      #86fbb1 51%,
+      #046b47 100%
+    );
+  
+    text-align: center;
+  
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    padding:10px 15px;
+    /* display: block; */
+  }
+  
+  .submit:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  

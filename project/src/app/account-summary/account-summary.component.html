@@ -1,0 +1,18 @@
+<app-navbar></app-navbar>
+<div class="account-summary-wrapper">
+  <!-- <button (click)="makeTransfer()">Transfer</button> -->
+  <h3>Your Accounts</h3>
+    <div *ngFor="let acc of userList" >
+      <div  class="account-container account-info">
+        <div>
+          <label>Account Number : </label>{{acc.accountNumber}}
+        </div>
+        <div><label>Account Type : </label>{{acc.type}}</div>
+        <div><label>Balance Amount : </label>{{acc.balance}}</div>
+        <button (click)="onClickButton(acc)">Account details</button>
+        
+      </div>
+    </div>
+  </div>
+  
+  

@@ -1,0 +1,208 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+h1 {
+  color: white;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 200%;
+  text-align: center;
+  padding: 5px 5px 0px 5px;
+}
+
+h4 {
+  color: white;
+  padding: 5px 5px;
+  /* font-family: verdana; */
+}
+/*nav a {
+  
+    text-decoration: none;
+    margin-right: 150px;
+    margin-top: 10px;
+    display: inline;
+    color: white;
+    padding: 0px 5px 5px 5px;
+    border-radius: 10px;
+    font-size: 25px;
+  
+  
+  }
+  
+  nav a:hover {
+    color: blue;
+  
+  }
+  nav a.active {
+    background-color: black;
+    color: white;
+  }*/
+body {
+  min-height:100vh;
+background: hsla(233, 100%, 90%, 1);
+
+background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAD0FF", endColorstr="#E3E3E3", GradientType=1 );
+position:relative;
+
+}
+
+.bg-blob
+{
+  position: absolute;
+ 
+  z-index:-500;
+  width:100%;
+   height:100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  width: 25%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: blue;
+}
+
+.navbar a.active {
+  background-color: black;
+  color: white;
+}
+.clr a {
+  background-color: white;
+}
+a:hover {
+  color: green;
+}
+
+/* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 250%;
+}
+h2,
+h3 {
+  color: #444;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-weight: lighter;
+}
+
+
+
+button
+{
+  border:none;
+  border-radius:5px;
+  padding:5px 10px;
+  transition:1s ease;
+}
+button:hover
+{
+  cursor: pointer;
+  transform:scale(1.25);
+}
+* {
+ font-family: "Raleway", sans-serif;
+}
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.trn {
+  width: 150px;
+  height: 100px;
+  background: greenyellow;
+  transition: width 2s;
+  padding: 10px;
+}
+
+.trn:hover {
+  width: 300px;
+}
+
+.trn h2 {
+  text-align: center;
+}
+.box {
+  width: 25%;
+  border: 2px dashed black;
+  padding: 10px;
+}
+.data-table {
+  width: 80%;
+  margin: 20px auto;
+}
+table {
+  width: 80%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 500px;
+}
+th.mat-header-cell {
+  text-align: center;
+  max-width: 300px;
+}
+
+.container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login {
+  margin-right: 0%;
+}
+
+/* @hk */
+
+input
+{
+  border-radius:5px;
+  border:none;
+  padding:5px;
+}
+
+input:focus{
+  outline:none
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,80 @@
+<app-navbar></app-navbar>
+<div>
+  <div class="account-container account-info" *ngIf="this.userData">
+    <div><label>Account Number : </label>{{this.userData.accountNumber}}</div>
+    <div><label>User Name : </label>{{this.userData.userName}}</div>
+    <div><label>User Id : </label>{{this.userData.userId}}</div>
+    <div><label>Account type : </label>{{this.userData.type}}</div>
+    <div><label>Balance Amount : </label>{{this.userData.balance}}</div>
+    <div><label>Currency : </label>{{this.userData.currency}}</div>
+    <div><label>IFSC Code : </label>{{this.userData.ifsc}}</div>
+    <div><label>Branch Name : </label>{{this.userData.branch}}</div>
+    <div><label>Phone Number : </label>{{this.userData.phone}}</div>
+    <div><label>Email : </label>{{this.userData.email}}</div>  
+  </div>   
+
+  <button (click)="logOut()" class="logout">Logout</button>
+  <!-- <div *ngIf="showTable">
+    <table>
+        <thead>
+          <tr>
+            <th>Account Number</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Transaction</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of transactionList">
+            <td>{{ user.accountNumber }}</td>
+            <td>{{ user.date }}</td>
+            <td>{{ user.description }}</td>
+            <td>{{ user.txn }}</td>
+            <td>{{ user.amount }}</td>
+          </tr>
+        </tbody>
+      </table>          
+  </div> -->
+   <div>
+    <button (click)="transferFunds2()">Transfer Funds</button>
+  </div>
+  <br>
+  <div>
+    <button (click)="showTransactions()">View Transaction History</button>
+    <button (click)="goBack()">Go Back</button>
+ <table mat-table  matSort [dataSource]="dataSource" class="detailsPage">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef  mat-sort-header> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+    <ng-container matColumnDef="accountId">
+      <th mat-header-cell *matHeaderCellDef  mat-sort-header>AccountId</th>
+      <td mat-cell *matCellDef="let element"> {{element.accountId}} </td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+      <th mat-header-cell *matHeaderCellDef  mat-sort-header> Description </th>
+      <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+    </ng-container>
+  
+    <ng-container matColumnDef="amount">
+        <th mat-header-cell *matHeaderCellDef  mat-sort-header>Amount</th>
+        <td mat-cell *matCellDef="let element" >
+          <span *ngIf="element.amount>0">Rs. {{element.amount}}</span>
+        </td>
+      </ng-container>
+      <ng-container matColumnDef="date">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header>Date</th>
+          <td mat-cell *matCellDef="let element">{{element.date}}
+          </td>
+        </ng-container>
+        <ng-container matColumnDef="txn">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Transaction </th>
+          <td mat-cell *matCellDef="let element"> {{element.txn}} </td>
+        </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  <mat-paginator [pageSize]="1" [pageSizeOptions]="[1,2,3,4,50]">
+  </mat-paginator>
+</div>

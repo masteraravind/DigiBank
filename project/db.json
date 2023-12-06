@@ -1,0 +1,1774 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "userId": "123456789",
+      "username": "john",
+      "password": "password1"
+    },
+    {
+      "id": 2,
+      "userId": "987654321",
+      "username": "alice",
+      "password": "password2"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "userId": "123456789",
+      "userName": "John Cena",
+      "email": "john@gmail.com",
+      "phone": 9876576890,
+      "accountNumber": "0009998882223",
+      "branch": "Coimbatore",
+      "ifsc": "TMBL000059",
+      "type": "Savings",
+      "balance": 10000,
+      "currency": "INR"
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "userId": "123456789",
+      "userName": "John Cena",
+      "email": "john@gmail.com",
+      "phone": 9876576890,
+      "accountNumber": "0008887773334",
+      "branch": "Coimbatore",
+      "ifsc": "TMBL000059",
+      "type": "Current",
+      "balance": 10000,
+      "currency": "INR",
+      "_id": "987654321"
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "userId": "123456789",
+      "userName": "John Cena",
+      "email": "john@gmail.com",
+      "phone": 9876576890,
+      "accountNumber": "0007776664445",
+      "branch": "Coimbatore",
+      "ifsc": "TMBL000059",
+      "type": "Fixed Deposit",
+      "startDate": "2023-06-07",
+      "maturityDate": "2024-06-30",
+      "balance": 50000,
+      "currency": "INR"
+    },
+    {
+      "id": 4,
+      "customerId": 2,
+      "userId": "987654321",
+      "userName": "Alice Johnson",
+      "email": "alice@gnail.com",
+      "phone": 7896543268,
+      "branch": "Chennai",
+      "ifsc": "SBI00007",
+      "accountNumber": "0006665554446",
+      "type": "Savings",
+      "balance": 4000,
+      "currency": "INR"
+    },
+    {
+      "id": 5,
+      "customerId": 2,
+      "userId": "987654321",
+      "userName": "Alice Johnson",
+      "email": "alice@gnail.com",
+      "phone": 7896543268,
+      "branch": "Chennai",
+      "ifsc": "SBI00007",
+      "accountNumber": "0005554448887",
+      "type": "Current",
+      "balance": 9000,
+      "currency": "INR"
+    },
+    {
+      "id": 6,
+      "customerId": 2,
+      "userId": "987654321",
+      "userName": "Alice Johnson",
+      "email": "alice@gnail.com",
+      "phone": 7896543268,
+      "branch": "Chennai",
+      "ifsc": "SBI00007",
+      "accountNumber": "0002226669998",
+      "type": "Fixed Deposit",
+      "startDate": "2023-06-09",
+      "maturityDate": "2025-06-30",
+      "balance": 70000,
+      "currency": "INR"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-06-01",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 2,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-06-02",
+      "description": "Friend",
+      "txn": "Credit"
+    },
+    {
+      "id": 3,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-06-03",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 4,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-06-04",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 5,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 300,
+      "date": "2023-06-05",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 6,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-06-06",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 7,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-06-07",
+      "description": "Family",
+      "txn": "Credit"
+    },
+    {
+      "id": 8,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-06-08",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 9,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-06-09",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 10,
+      "accountNumber": "0009998882223",
+      "accountId": 1,
+      "amount": 250,
+      "date": "2023-06-10",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 11,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-06-11",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 12,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-06-12",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 13,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-06-13",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 14,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-06-14",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 15,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 300,
+      "date": "2023-06-15",
+      "description": "Bank Interest",
+      "txn": "Credit"
+    },
+    {
+      "id": 16,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-06-16",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 17,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-06-17",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 18,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-06-18",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 19,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-06-19",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 20,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 250,
+      "date": "2023-06-20",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 21,
+      "accountNumber": "0008887773334",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-06-21",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 22,
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-06-22",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 23,
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-06-23",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 24,
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-06-24",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 25,
+      "accountId": 1,
+      "amount": 300,
+      "date": "2023-06-25",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 26,
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-06-26",
+      "description": "Family",
+      "txn": "Credit"
+    },
+    {
+      "id": 27,
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-06-27",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 28,
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-06-28",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 29,
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-06-29",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 30,
+      "accountId": 1,
+      "amount": 250,
+      "date": "2023-06-30",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 31,
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-07-01",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 32,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-07-02",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 33,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-07-03",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 34,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-07-04",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 35,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 300,
+      "date": "2023-07-05",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 36,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-07-06",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 37,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-07-07",
+      "description": "Friend",
+      "txn": "Credit"
+    },
+    {
+      "id": 38,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-07-08",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 39,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-07-09",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 40,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 250,
+      "date": "2023-07-10",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 41,
+      "accountNumber": "0006665554446",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-07-11",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 42,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-07-12",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 43,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-07-13",
+      "description": "Electricity Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 44,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-07-14",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 45,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 300,
+      "date": "2023-07-15",
+      "description": "Salary",
+      "txn": "Debit"
+    },
+    {
+      "id": 46,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 200,
+      "date": "2023-07-16",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 47,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 150,
+      "date": "2023-07-17",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 48,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 100,
+      "date": "2023-07-18",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 49,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 50,
+      "date": "2023-07-19",
+      "description": "Electricity Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 50,
+      "accountNumber": "0005554448887",
+      "accountId": 1,
+      "amount": 250,
+      "date": "2023-07-20",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 51,
+      "accountNumber": "0005554448887",
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-06-01",
+      "description": "Utility Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 52,
+      "accountId": 2,
+      "amount": 50,
+      "date": "2023-06-03",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 53,
+      "accountId": 2,
+      "amount": 2000,
+      "date": "2023-06-05",
+      "description": "Salary",
+      "txn": "Credit"
+    },
+    {
+      "id": 54,
+      "accountId": 2,
+      "amount": 500,
+      "date": "2023-06-07",
+      "description": "Dinner with Friends",
+      "txn": "Debit"
+    },
+    {
+      "id": 55,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-06-09",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 56,
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-06-11",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 57,
+      "accountId": 2,
+      "amount": 150,
+      "date": "2023-06-13",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 58,
+      "accountId": 2,
+      "amount": 75,
+      "date": "2023-06-15",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 59,
+      "accountId": 2,
+      "amount": 300,
+      "date": "2023-06-17",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 60,
+      "accountId": 2,
+      "amount": 500,
+      "date": "2023-06-19",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 61,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-06-21",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 62,
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-06-23",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 63,
+      "accountId": 2,
+      "amount": 50,
+      "date": "2023-06-25",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 64,
+      "accountId": 2,
+      "amount": 1000,
+      "date": "2023-06-27",
+      "description": "Bonus",
+      "txn": "Credit"
+    },
+    {
+      "id": 65,
+      "accountId": 2,
+      "amount": 250,
+      "date": "2023-06-29",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 66,
+      "accountId": 2,
+      "amount": 75,
+      "date": "2023-07-01",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 67,
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-07-03",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 68,
+      "accountId": 2,
+      "amount": 50,
+      "date": "2023-07-05",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 69,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-07-07",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 70,
+      "accountId": 2,
+      "amount": 150,
+      "date": "2023-07-09",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 71,
+      "accountId": 2,
+      "amount": 75,
+      "date": "2023-07-11",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 72,
+      "accountId": 2,
+      "amount": 300,
+      "date": "2023-07-13",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 73,
+      "accountId": 2,
+      "amount": 500,
+      "date": "2023-07-15",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 74,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-07-17",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 75,
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-07-19",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 76,
+      "accountId": 2,
+      "amount": 50,
+      "date": "2023-07-21",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 77,
+      "accountId": 2,
+      "amount": 1000,
+      "date": "2023-07-23",
+      "description": "Bonus",
+      "txn": "Credit"
+    },
+    {
+      "id": 78,
+      "accountId": 2,
+      "amount": 250,
+      "date": "2023-07-25",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 79,
+      "accountId": 2,
+      "amount": 75,
+      "date": "2023-07-27",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 80,
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-07-29",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 81,
+      "accountId": 2,
+      "amount": 50,
+      "date": "2023-07-31",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 82,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-08-02",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 83,
+      "accountId": 2,
+      "amount": 150,
+      "date": "2023-08-04",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 84,
+      "accountId": 2,
+      "amount": 75,
+      "date": "2023-08-06",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 85,
+      "accountId": 2,
+      "amount": 300,
+      "date": "2023-08-08",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 86,
+      "accountId": 2,
+      "amount": 500,
+      "date": "2023-08-10",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 87,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-08-12",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 88,
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-08-14",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 89,
+      "accountId": 2,
+      "amount": 50,
+      "date": "2023-08-16",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 90,
+      "accountId": 2,
+      "amount": 1000,
+      "date": "2023-08-18",
+      "description": "Bonus",
+      "txn": "Credit"
+    },
+    {
+      "id": 91,
+      "accountId": 2,
+      "amount": 250,
+      "date": "2023-08-20",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 92,
+      "accountId": 2,
+      "amount": 75,
+      "date": "2023-08-22",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 93,
+      "accountId": 2,
+      "amount": 100,
+      "date": "2023-08-24",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 94,
+      "accountId": 2,
+      "amount": 50,
+      "date": "2023-08-26",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 95,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-08-28",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 96,
+      "accountId": 2,
+      "amount": 150,
+      "date": "2023-08-30",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 97,
+      "accountId": 2,
+      "amount": 75,
+      "date": "2023-09-01",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 98,
+      "accountId": 2,
+      "amount": 300,
+      "date": "2023-09-03",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 99,
+      "accountId": 2,
+      "amount": 500,
+      "date": "2023-09-05",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 100,
+      "accountId": 2,
+      "amount": 200,
+      "date": "2023-09-07",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 101,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-06-01",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 102,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-06-02",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 103,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-06-03",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 104,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-06-04",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 105,
+      "accountId": 4,
+      "amount": 300,
+      "date": "2023-06-05",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 106,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-06-06",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 107,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-06-07",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 108,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-06-08",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 109,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-06-09",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 110,
+      "accountId": 4,
+      "amount": 250,
+      "date": "2023-06-10",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 111,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-06-11",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 112,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-06-12",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 113,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-06-13",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 114,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-06-14",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 115,
+      "accountId": 4,
+      "amount": 300,
+      "date": "2023-06-15",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 116,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-06-16",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 117,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-06-17",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 118,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-06-18",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 119,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-06-19",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 120,
+      "accountId": 4,
+      "amount": 250,
+      "date": "2023-06-20",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 121,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-06-21",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 122,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-06-22",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 123,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-06-23",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 124,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-06-24",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 125,
+      "accountId": 4,
+      "amount": 300,
+      "date": "2023-06-25",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 126,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-06-26",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 127,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-06-27",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 128,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-06-28",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 129,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-06-29",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 130,
+      "accountId": 4,
+      "amount": 250,
+      "date": "2023-06-30",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 131,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-07-01",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 132,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-07-02",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 133,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-07-03",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 134,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-07-04",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 135,
+      "accountId": 4,
+      "amount": 300,
+      "date": "2023-07-05",
+      "description": "Family",
+      "txn": "Credit"
+    },
+    {
+      "id": 136,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-07-06",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 137,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-07-07",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 138,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-07-08",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 139,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-07-09",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 140,
+      "accountId": 4,
+      "amount": 250,
+      "date": "2023-07-10",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 141,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-07-11",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 142,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-07-12",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 143,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-07-13",
+      "description": "Electricity Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 144,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-07-14",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 145,
+      "accountId": 4,
+      "amount": 300,
+      "date": "2023-07-15",
+      "description": "Salary",
+      "txn": "Credit"
+    },
+    {
+      "id": 146,
+      "accountId": 4,
+      "amount": 200,
+      "date": "2023-07-16",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 147,
+      "accountId": 4,
+      "amount": 150,
+      "date": "2023-07-17",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 148,
+      "accountId": 4,
+      "amount": 100,
+      "date": "2023-07-18",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 149,
+      "accountId": 4,
+      "amount": 50,
+      "date": "2023-07-19",
+      "description": "Electricity Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 150,
+      "accountId": 4,
+      "amount": 250,
+      "date": "2023-07-20",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 151,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-06-01",
+      "description": "Utility Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 152,
+      "accountId": 5,
+      "amount": 50,
+      "date": "2023-06-03",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 153,
+      "accountId": 5,
+      "amount": 2000,
+      "date": "2023-06-05",
+      "description": "Salary",
+      "txn": "Credit"
+    },
+    {
+      "id": 154,
+      "accountId": 5,
+      "amount": 500,
+      "date": "2023-06-07",
+      "description": "Dinner with Friends",
+      "txn": "Debit"
+    },
+    {
+      "id": 155,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-06-09",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 156,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-06-11",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 157,
+      "accountId": 5,
+      "amount": 150,
+      "date": "2023-06-13",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 158,
+      "accountId": 5,
+      "amount": 75,
+      "date": "2023-06-15",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 159,
+      "accountId": 5,
+      "amount": 300,
+      "date": "2023-06-17",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 160,
+      "accountId": 5,
+      "amount": 500,
+      "date": "2023-06-19",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 161,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-06-21",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 162,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-06-23",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 163,
+      "accountId": 5,
+      "amount": 50,
+      "date": "2023-06-25",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 164,
+      "accountId": 5,
+      "amount": 1000,
+      "date": "2023-06-27",
+      "description": "Bonus",
+      "txn": "Credit"
+    },
+    {
+      "id": 165,
+      "accountId": 5,
+      "amount": 250,
+      "date": "2023-06-29",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 166,
+      "accountId": 5,
+      "amount": 75,
+      "date": "2023-07-01",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 167,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-07-03",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 168,
+      "accountId": 5,
+      "amount": 50,
+      "date": "2023-07-05",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 169,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-07-07",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 170,
+      "accountId": 5,
+      "amount": 150,
+      "date": "2023-07-09",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 171,
+      "accountId": 5,
+      "amount": 75,
+      "date": "2023-07-11",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 172,
+      "accountId": 5,
+      "amount": 300,
+      "date": "2023-07-13",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 173,
+      "accountId": 5,
+      "amount": 500,
+      "date": "2023-07-15",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 174,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-07-17",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 175,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-07-19",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 176,
+      "accountId": 5,
+      "amount": 50,
+      "date": "2023-07-21",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 177,
+      "accountId": 5,
+      "amount": 1000,
+      "date": "2023-07-23",
+      "description": "Bonus",
+      "txn": "Credit"
+    },
+    {
+      "id": 178,
+      "accountId": 5,
+      "amount": 250,
+      "date": "2023-07-25",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 179,
+      "accountId": 5,
+      "amount": 75,
+      "date": "2023-07-27",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 180,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-07-29",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 181,
+      "accountId": 5,
+      "amount": 50,
+      "date": "2023-07-31",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 182,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-08-02",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 183,
+      "accountId": 5,
+      "amount": 150,
+      "date": "2023-08-04",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 184,
+      "accountId": 5,
+      "amount": 75,
+      "date": "2023-08-06",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 185,
+      "accountId": 5,
+      "amount": 300,
+      "date": "2023-08-08",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 186,
+      "accountId": 5,
+      "amount": 500,
+      "date": "2023-08-10",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 187,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-08-12",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "id": 188,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-08-14",
+      "description": "Phone Bill",
+      "txn": "Debit"
+    },
+    {
+      "id": 189,
+      "accountId": 5,
+      "amount": 50,
+      "date": "2023-08-16",
+      "description": "Grocery Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 190,
+      "accountId": 5,
+      "amount": 1000,
+      "date": "2023-08-18",
+      "description": "Bonus",
+      "txn": "Credit"
+    },
+    {
+      "id": 191,
+      "accountId": 5,
+      "amount": 250,
+      "date": "2023-08-20",
+      "description": "Concert Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 192,
+      "accountId": 5,
+      "amount": 75,
+      "date": "2023-08-22",
+      "description": "Lunch",
+      "txn": "Debit"
+    },
+    {
+      "id": 193,
+      "accountId": 5,
+      "amount": 100,
+      "date": "2023-08-24",
+      "description": "Dinner",
+      "txn": "Debit"
+    },
+    {
+      "id": 194,
+      "accountId": 5,
+      "amount": 50,
+      "date": "2023-08-26",
+      "description": "Movie Tickets",
+      "txn": "Debit"
+    },
+    {
+      "id": 195,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-08-28",
+      "description": "Deposit",
+      "txn": "Debit"
+    },
+    {
+      "id": 196,
+      "accountId": 5,
+      "amount": 150,
+      "date": "2023-08-30",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 197,
+      "accountId": 5,
+      "amount": 75,
+      "date": "2023-09-01",
+      "description": "Dining Out",
+      "txn": "Debit"
+    },
+    {
+      "id": 198,
+      "accountId": 5,
+      "amount": 300,
+      "date": "2023-09-03",
+      "description": "Shopping",
+      "txn": "Debit"
+    },
+    {
+      "id": 199,
+      "accountId": 5,
+      "amount": 500,
+      "date": "2023-09-05",
+      "description": "Transfer Received",
+      "txn": "Credit"
+    },
+    {
+      "id": 200,
+      "accountId": 5,
+      "amount": 200,
+      "date": "2023-09-07",
+      "description": "Online Purchase",
+      "txn": "Debit"
+    },
+    {
+      "amount": "1111",
+      "id": 201
+    },
+    {
+      "amount": "222",
+      "id": 202
+    },
+    {
+      "amount": "444444444444",
+      "id": 203
+    },
+    {
+      "amount": "+367276427482422424242424242141",
+      "id": 204
+    },
+    {
+      "amount": "9999999999999999999999999",
+      "id": 205
+    },
+    {
+      "amount": "88",
+      "id": 206
+    }
+  ]
+}

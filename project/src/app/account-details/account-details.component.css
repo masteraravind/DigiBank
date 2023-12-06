@@ -1,0 +1,38 @@
+
+  
+  .account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    height:70vh;
+    /* background-color: #333; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .account-info button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .account-info button:hover {
+    background-color: #0056b3;
+  }
+
+  .logout
+  {
+  background-color:red;
+  color:white
+  }
+
+
+  

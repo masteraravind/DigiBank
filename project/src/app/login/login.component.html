@@ -1,0 +1,68 @@
+<!-- <div class="container" [hidden]="submitted">
+ 
+    <h2 style="text-align: center; font-size: 35px;">Login</h2>
+    <div class="login">
+      <form [formGroup]="loginForm" novalidate (ngSubmit)="login()">
+        <div class="form-group">
+          <label for="username" style="font-size: 20px;">Username:</label>
+          <input id="username" class="form-control" formControlName="username" type="text">
+          <div *ngIf="loginForm.controls['username'].invalid && (loginForm.controls['username'].dirty || loginForm.controls['username'].touched)" class="alert alert-danger">
+            <div *ngIf="loginForm.controls['username'].errors?.required">
+              Username is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="password" style="font-size: 20px;">Password:</label>
+          <input id="password" class="form-control" formControlName="password" type="password">
+          <div *ngIf="loginForm.controls['password'].invalid && (loginForm.controls['password'].dirty || loginForm.controls['password'].touched)" class="alert alert-danger">
+            <div *ngIf="loginForm.controls['password'].errors?.required">
+              Password is required.
+            </div>
+          </div>
+        </div>
+
+        <button style="margin-top: 20px; padding: 10px; background: rgb(6, 6, 146);" mat-raised-button type="submit" [disabled]="loginForm.pristine || loginForm.invalid" class="btn btn-success">
+          Login
+        </button>
+      </form>
+    </div>
+</div> -->
+<form [formGroup]="loginForm" novalidate (ngSubmit)="login()" class="main-wrapper">
+
+  <h2 class="welcome-wrapper">WELCOME TO DIGIBANK</h2>
+
+<div class="form-wrapper">
+  <div class="username-wrapper">
+    <div class="username-controller-wrapper">
+    <label for="username" >Username:</label>
+    <input id="username" class="form-control" formControlName="username" type="text">
+    </div>
+    
+    <div *ngIf="loginForm.controls['username'].invalid && (loginForm.controls['username'].dirty || loginForm.controls['username'].touched)" class="alert">
+      <div *ngIf="loginForm.controls['username'].errors?.required">
+        Username is required.
+      </div>
+    </div>
+  </div>
+
+  <div class="password-wrapper">
+    <div class="password-controller-wrapper">
+  <label for="password" >Password:</label>
+    <input id="password" class="form-control" formControlName="password" type="password">
+
+    </div>
+    
+    <div *ngIf="loginForm.controls['password'].invalid && (loginForm.controls['password'].dirty || loginForm.controls['password'].touched)" class="alert">
+      <div *ngIf="loginForm.controls['password'].errors?.required">
+        Password is required.
+      </div>
+    </div>
+  </div>
+
+  <button class="submit" mat-raised-button type="submit" [disabled]="loginForm.pristine || loginForm.invalid">
+    Login
+  </button>
+</div>
+</form>
